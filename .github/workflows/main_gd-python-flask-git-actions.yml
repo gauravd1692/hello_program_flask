@@ -70,5 +70,4 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'GD-PYTHON-FLASK-GIT-ACTIONS'
-          # slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A007F4AC641948B19E39191C12134BC3 }}
